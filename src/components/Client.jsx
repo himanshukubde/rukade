@@ -117,7 +117,7 @@ const Client = () => {
                             </div>
                             <div className="col-md-6">
                               <label htmlFor="">Broker</label>
-                              <input className="form-control" type="number" placeholder='enter broker' />
+                              <input className="form-control" type="text" placeholder='enter broker' />
                             </div>
 
                           </div>
