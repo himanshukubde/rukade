@@ -91,7 +91,7 @@ const Client = () => {
                     <div className="modal-content">
                       <div className="modal-header">
                         <h5 className="modal-title" id="exampleModalLabel">
-                          Modal title
+                          Add Client
                         </h5>
                         <button
                           type="button"
@@ -100,7 +100,29 @@ const Client = () => {
                           aria-label="Close"
                         />
                       </div>
-                      <div className="modal-body">...</div>
+                      <div className="modal-body">
+                        <form action="">
+                          <div className="row">
+                            <div className="col-md-6">
+                              <label htmlFor="">Name</label>
+                              <input className="form-control mb-2" type="text" placeholder='enter your name' />
+                            </div>
+                            <div className="col-md-6">
+                              <label htmlFor="">Email</label>
+                              <input className="form-control" type="email" placeholder='enter your mail' />
+                            </div>
+                            <div className="col-md-6">
+                              <label htmlFor="">Phone</label>
+                              <input className="form-control" type="number" placeholder='enter your Phone no ' />
+                            </div>
+                            <div className="col-md-6">
+                              <label htmlFor="">Broker</label>
+                              <input className="form-control" type="number" placeholder='enter broker' />
+                            </div>
+
+                          </div>
+                        </form>
+                      </div>
                       <div className="modal-footer">
                         <button
                           type="button"
@@ -110,7 +132,7 @@ const Client = () => {
                           Close
                         </button>
                         <button type="button" className="btn btn-primary">
-                          Save changes
+                          Add
                         </button>
                       </div>
                     </div>
